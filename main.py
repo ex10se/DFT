@@ -18,6 +18,6 @@ def FFT(x):
 # Sequence
 sequence = [1, 2, 3, 4, 5, 6, 7, 8]
 
-print("Последовательность: ", sequence)
+print("Последовательность:", sequence)
 print("ДПФ\n", DFT(sequence))
 print("БПФ\n", FFT(sequence))
